@@ -1,0 +1,23 @@
+{
+  "name": "ycare-landing-page",
+  "version": "1.0.0",
+  "homepage": "https://akhilesh-dev-34.github.io/lending-ycare",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && cp dist/index.html dist/404.html",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.18.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "@vitejs/plugin-react": "^4.5.2",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.3.1",
+    "vite": "^6.3.5"
+  }
+}

@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-bg: #f5f3ef;
+  --color-bg-separator: #e8e2d9;
+  --color-accent: #00b4c4;
+  --color-accent-hover: #009daa;
+  --color-accent-dark: #008894;
+  --color-logo-blue: #0050aa;
+  --color-logo-cyan: #00b4c4;
+  --color-text-heading: #003d7a;
+  --color-text-body: #3d5c5b;
+  --color-text-light: #7a9493;
+  --color-border: #c5e8ee;
+  --color-pill-bg: #e0f7fa;
+  --color-pill-accent: #c8eff4;
+  --color-surface-mint: #eef8f9;
+  --color-surface-mint-deep: #d4eef2;
+  --color-footer-bg: #0a3332;
+  --color-footer-bg-light: #0e4a48;
+
+  --breakpoint-tablet: 56.25rem;
+  --breakpoint-mobile: 37.5rem;
+
+  --animate-scroll-pills: scroll-pills 40s linear infinite;
+}
+
+@keyframes scroll-pills {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth overflow-x-hidden;
+  }
+
+  body {
+    @apply font-sans bg-bg text-text-body text-base leading-[1.7] antialiased overflow-x-hidden;
+  }
+
+  a {
+    @apply no-underline text-inherit;
+  }
+}
