@@ -1,11 +1,12 @@
 {
   "name": "ycare-landing-page",
   "version": "1.0.0",
-  "homepage": "https://akhilesh-dev-34.github.io/lending-ycare",
+  "homepage": "https://github.com/Akhilesh-dev-34/lending-ycare",
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
