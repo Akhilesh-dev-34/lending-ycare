@@ -23,7 +23,6 @@ export default function Founder() {
             </div>
           </div>
           <div className="bg-white rounded-[28px] border border-border p-6 shadow-[0_8px_32px_rgba(2,172,168,0.12)] max-mobile:p-6">
-            <p className="text-[13px] font-bold tracking-wide text-accent uppercase mb-2">Founder</p>
             <h2 className="text-[clamp(26px,3.5vw,34px)] font-extrabold text-text-heading leading-tight mb-1">
               Yasin Nadaf
             </h2>
